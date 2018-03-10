@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(236, 245, 245);
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    color: tomato;
+}
+
+.main-menu-item {
+    display: inline-block;
+    height: 50px;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.main-menu-item a:hover {
+    background: green;
+}
+
+.main-menu-item a:link {
+    text-decoration: none;
+}
+    
+.main-menu-item a{
+    display: block;
+    height: 50px;
+    padding: 0px 15px;
+    color: tomato;
+}
+
+header {
+    border-bottom: 1px solid tomato ;
+    background: rgb(180, 252, 212);
+}
+
+.main-logo img {
+    max-height: 50px;
+}
+
+.slider img {
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+.small-article img{
+    max-width: 100%;
+    margin-top: 2px;
+}
+

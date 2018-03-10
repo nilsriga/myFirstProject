@@ -1,14 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>myFirstProject</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">    
 </head>
+
 <body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-3 main-logo">
+                    <a href="Logo.png">
+                        <img src="Logo.png" alt="logo">
+                    </a>  
+                </div>
+                <div class="col-xs-9">
+                    <ul class="main-menu">
+                        <li class="main-menu-item">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="">Articles</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="">Chat</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="">Register</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 slider">   
+                    <img src="https://images-na.ssl-images-amazon.com/images/G/01/aplusautomation/vendorimages/60287e04-acfe-4085-be1e-b82c14622926.jpg._CB292490752_.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 slider">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 small-article">
+                            <img src="https://images.esellerpro.com/2243/I/140/25/cat-in-a-bag.JPG" alt="">
+                        </div>
+                        <div>
+                            <p class="hidden-xs col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum cum officia, ut quod veniam tempore? Nesciunt optio ducimus nemo perspiciatis, aspernatur maxime, laudantium quo atque non, saepe illo ratione?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 slider">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 small-article">
+                            <img src="https://images.esellerpro.com/2243/I/140/25/cat-in-a-bag.JPG" alt="">
+                        </div>
+                        <div>
+                            <p class="hidden-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum cum officia, ut quod veniam tempore? Nesciunt optio ducimus nemo perspiciatis, aspernatur maxime, laudantium quo atque non, saepe illo ratione?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 slider">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 small-article">
+                            <img src="https://images.esellerpro.com/2243/I/140/25/cat-in-a-bag.JPG" alt="">
+                        </div>
+                        <div>
+                            <p class="hidden-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum cum officia, ut quod veniam tempore? Nesciunt optio ducimus nemo perspiciatis, aspernatur maxime, laudantium quo atque non, saepe illo ratione?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+
+    </footer>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <select multiple name="car" id="choice">
+        <option value="mw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="mercedes">mercedes</option>
+        <option value="sunitis">sunītis</option>
+        <option value="mercedes">BMW</option>
+        <option value="mercedes">BMW</option>
+    </select>
+    <div>
+        <input type="radio" name="radio1" id="checkbox1"><label for="checkbox1">my radio</label>
+        <input type="radio" name="radio1"><label>my radio</label>
+        <input type="radio"><label>my radio</label>
+        <input type="radio"><label>my radio</label>
+        <input type="radio"><label>my radio</label>
+        <input type="radio"><label>my radio</label>
+        <input type="radio"><label>my radio</label>
+    </div>
+    <form method="post">
+        <div>
+            <lable for="super-username">Username:</lable>
+            <br>
+            <input type="text" id="super-username" name="username">
+        </div>
+        <div>
+            <lable for="super-password">Password:</lable>
+            <br>
+            <input type="password" id="super-password" name="password">
+        </div>
+        <div>
+            <input type="submit" value="send the data!">
+        </div>
+        <br>
+        <textarea name="text" id="newtext" cols="30" rows="10">Rakstiet šeit </textarea>
+    </form>
     <h1>hello mister</h1>
     <h2>my name is slim shady</h2>
     <p>my mister twister</p>
+    <table border="1">
+        <tr>
+            <td>1a</td>
+            <td colspan="2">1e</td>
+            <td>1b</td>
+            <td>1u</td>
+        </tr>
+        <tr>
+            <td>2a</td>
+            <td>2e</td>
+            <td>2b</td>
+            <td>2c</td>
+            <td>2u</td>
+        </tr>
+        <tr>
+            <td>3a</td>
+            <td>3e</td>
+            <td>3b</td>
+            <td rowspan="2">3c</td>
+            <td>3u</td>
+        </tr>
+        <tr>
+            <td>4a</td>
+            <td>4e</td>
+            <td>4b</td>
+            <td>4u</td>
+        </tr>
+    </table>
 </body>
+
 </html>
